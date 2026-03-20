@@ -90,7 +90,7 @@ All are below 0.5 and therefore minor alleles
 (i) Conduct the Hardy–Weinberg Equilibrium (HWE) test for all SNPs in the .bim file. Then, load the file containing the HWE p-value results and display the first few rows of the resulting data frame.
 
 ```{bash}    
-plink2 --bfile ./02_activities/data/gwa.qc.A1 --hardy --out ../data/gwa_qc_hwe_A1
+plink2 --bfile ./02_activities/data/gwa.qc.A1 --hardy --out ./02_activities/data/gwa_qc_hwe_A1
 ```
 
 ```{r,message=FALSE, warning=FALSE}    
